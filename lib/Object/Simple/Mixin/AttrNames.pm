@@ -1,6 +1,6 @@
 package Object::Simple::Mixin::AttrNames;
 
-our $VERSION = '0.0201';
+our $VERSION = '0.0202';
 
 use warnings;
 use strict;
@@ -24,7 +24,7 @@ Object::Simple::Mixin::AttrNames - Mixin class to get attribute names for Object
 
 =head1 VERSION
 
-Version 0.0201
+Version 0.0202
 
 =cut
 

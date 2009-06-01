@@ -9,7 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Object/Simple/Mixin/AttrNames.pm',
     build_requires => {
         'Test::More' => 0,
-        'Object::Simple' => 0.0201,
+        'Object::Simple' => 0.0203,
     },
     add_to_cleanup      => [ 'Object-Simple-Mixin-AttrNames-*' ],
     create_makefile_pl => 'traditional',
