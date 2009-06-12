@@ -2,7 +2,7 @@ package Object::Simple::Mixin::AttrNames;
 use warnings;
 use strict;
 
-our $VERSION = '0.0203';
+our $VERSION = '0.0204';
 
 # get all attribute names
 sub attr_names{
@@ -20,7 +20,7 @@ Object::Simple::Mixin::AttrNames - Mixin class to get attribute names for Object
 
 =head1 VERSION
 
-Version 0.0203
+Version 0.0204
 
 =cut
 
@@ -35,7 +35,7 @@ Version 0.0203
     sub title : Attr {}
     sub author : Attr {}
     
-    Object::Simple->end;
+    Object::Simple->build_class;
     
     ### using Book.pm
     my $book = Book->new;
