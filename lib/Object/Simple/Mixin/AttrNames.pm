@@ -1,12 +1,8 @@
 package Object::Simple::Mixin::AttrNames;
-
-our $VERSION = '0.0202';
-
 use warnings;
 use strict;
-use base 'Exporter';
 
-our @EXPORT = qw/attr_names/;
+our $VERSION = '0.0203';
 
 # get all attribute names
 sub attr_names{
@@ -24,7 +20,7 @@ Object::Simple::Mixin::AttrNames - Mixin class to get attribute names for Object
 
 =head1 VERSION
 
-Version 0.0202
+Version 0.0203
 
 =cut
 

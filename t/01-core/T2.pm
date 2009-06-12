@@ -6,4 +6,4 @@ use Object::Simple(
 
 sub m3 : Attr { default => 'm3' }
 
-Object::Simple->end;
+Object::Simple->build_class;
