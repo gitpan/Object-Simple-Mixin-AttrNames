@@ -2,7 +2,7 @@ package Object::Simple::Mixin::AttrNames;
 use warnings;
 use strict;
 
-our $VERSION = '0.0204';
+our $VERSION = '0.0301';
 
 # get all attribute names
 sub attr_names{
@@ -16,11 +16,17 @@ sub attr_names{
 
 =head1 NAME
 
-Object::Simple::Mixin::AttrNames - Mixin class to get attribute names for Object::Simple
+Object::Simple::Mixin::AttrNames - Mixin to get attr names [DISCOURAGED]
+
+=head1 CAUTION
+
+This module is discouraged now, because I feel attribute is not explicit for lightweight language.
+
+I will not maintain this module.
 
 =head1 VERSION
 
-Version 0.0204
+Version 0.0301
 
 =cut
 
